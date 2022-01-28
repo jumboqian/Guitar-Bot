@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GuitarBot"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\rtpmidid\;CMake Files\Rtpmidi\;CMake Files\MotorController\;CMake Files\GuitarBot\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtpmidid">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/lib/librtpmidid.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/3rdparty/rtpmidid"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 rtpmidid"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rtpmidid/fast">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/lib/librtpmidid.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/3rdparty/rtpmidid"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 rtpmidid/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/3rdparty/rtpmidid/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Rtpmidi">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/lib/libRtpmidi.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/Rtpmidi"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/Rtpmidi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 Rtpmidi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Rtpmidi/fast">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/lib/libRtpmidi.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/Rtpmidi"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/Rtpmidi/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 Rtpmidi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/Rtpmidi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MotorController">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/lib/libMotorController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/MotorController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/MotorController/Include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 MotorController"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MotorController/fast">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/lib/libMotorController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/MotorController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/MotorController/Include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 MotorController/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/MotorController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GuitarBot">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/GuitarBot/GuitarBot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/GuitarBot"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/Rtpmidi/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/MotorController/Include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 GuitarBot"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GuitarBot/fast">
+				<Option output="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/GuitarBot/GuitarBot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/cmake-build-debug/GuitarBot"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_DEBUG"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/spdlog/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/Rtpmidi/include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/Include"/>
+					<Add directory="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/MotorController/Include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 GuitarBot/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/codmusic/Documents/ClionProject/GuitarBot\ (Jumbo)/cmake-build-debug/GuitarBot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/src/logger.cpp">
+			<Option target="rtpmidid"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/src/poller.cpp">
+			<Option target="rtpmidid"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/src/rtpclient.cpp">
+			<Option target="rtpmidid"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/src/rtppeer.cpp">
+			<Option target="rtpmidid"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/src/rtpserver.cpp">
+			<Option target="rtpmidid"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/GTab.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/GuitarBot.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/GuitarEvent.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/GuitarTrack.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/MIDI_Reader.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/MotionGenerator.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/PandaArm.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/RightHandController.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/src/main.cpp">
+			<Option target="GuitarBot"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/Src/MotorController.cpp">
+			<Option target="MotorController"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/Src/Striker.cpp">
+			<Option target="MotorController"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/Rtpmidi/src/rtpmidi.cpp">
+			<Option target="Rtpmidi"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/3rdparty/rtpmidid/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\rtpmidid\"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/Rtpmidi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Rtpmidi\"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/MotorController/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MotorController\"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/GuitarBot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GuitarBot\"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/codmusic/Documents/ClionProject/GuitarBot (Jumbo)/../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

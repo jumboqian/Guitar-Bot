@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libMotorController.a CMakeFiles/MotorController.dir/Src/MotorController.cpp.o CMakeFiles/MotorController.dir/Src/Striker.cpp.o
+/usr/bin/ranlib ../lib/libMotorController.a

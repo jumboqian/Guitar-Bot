@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libRtpmidi.a CMakeFiles/Rtpmidi.dir/src/rtpmidi.cpp.o
+/usr/bin/ranlib ../lib/libRtpmidi.a

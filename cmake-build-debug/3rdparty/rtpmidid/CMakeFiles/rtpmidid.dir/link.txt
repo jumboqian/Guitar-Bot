@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/librtpmidid.a CMakeFiles/rtpmidid.dir/src/rtppeer.cpp.o CMakeFiles/rtpmidid.dir/src/rtpclient.cpp.o CMakeFiles/rtpmidid.dir/src/rtpserver.cpp.o CMakeFiles/rtpmidid.dir/src/logger.cpp.o CMakeFiles/rtpmidid.dir/src/poller.cpp.o
+/usr/bin/ranlib ../../lib/librtpmidid.a
